@@ -4,9 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Examen JS</title>
+    <script type="module" src="./js/registro.js" defer ></script>
+    <script type="module" src="./js/inicioSesion.js" defer ></script>
 </head>
 <body>
-    <h1>Examen JS</h1>
-    <h2>Prueba 2</h2>
+    <form id="formulario-inicio-sesion" method="post">
+        <input type="email" required id="email-inicio-sesion" name="email-inicio-sesion" placeholder="Ingrese Correo">
+        <input type="password" required id="password-inicio-sesion" name="password-inicio-sesion" placeholder="Ingrese contraseña">
+        <button type="submit">Ingresar</button>
+    </form>
+    <form id="formulario-registro" method="post">
+        <input type="text" required id="nombre-registro" name="nombre-registro" placeholder="Ingrese nombre">
+        <input type="email" required id="email-registro" name="email-registro" placeholder="Ingrese Correo">
+        <input type="password" required id="password-registro" name="password-registro" placeholder="Ingrese contraseña">
+        <button type="submit">Registrarme</button>
+    </form>
+
 </body>
 </html>

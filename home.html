@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="./js/crearActividad.js" defer></script>
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+    <h1>Hola, <span id="etiqueta-Nombre"></span>!!!</h1>
+    <aside>
+        <section>
+            <form id="formulario-nueva-task" method="post">
+                <input type="text" name="input-new-task-titulo" id="input-new-task-titulo" required
+                    placeholder="Nueva Actividad">
+                <input type="text" name="input-new-ubicacion" id="input-new-ubicacion" required
+                    placeholder="Ingrese la Ubicacion">
+                <label for="input-new-fecha-inicio">Fecha inicio
+                    <input type="datetime-local" name="input-new-fecha-inicio" id="input-new-fecha-inicio" required>
+                </label>
+                <label for="input-new-fecha-fin">Fecha fin<input type="datetime-local" name="input-new-fecha-fin"
+                        id="input-new-fecha-fin" required></label>
+                <button type="submit">Crear Actividad</button>
+            </form>
+        </section>
+    </aside>
+    <main id="list-actvidades">
+
+    </main>
+</body>
+
+</html>

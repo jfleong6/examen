@@ -1,0 +1,29 @@
+main{
+    display: flex;
+    gap: 20px;
+
+}
+div{
+    border: 1px solid lightgray;
+    border-radius: 20%;
+    width: 150px;
+    padding-left: 20px;
+}
+h2{
+    color: rgb(0, 132, 255);
+}
+h5{
+    color: lightgray;
+    margin: 0;
+    margin-bottom: 2px;
+}
+input{
+    border-radius: 10px;
+    display:block;
+}
+section{
+    display:block;
+}
+button{
+    border-radius: 10px;
+}
